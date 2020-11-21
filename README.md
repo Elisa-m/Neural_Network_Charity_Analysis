@@ -7,7 +7,7 @@ The purpose of this analysis was to develop a machine learning model using neura
 ### Data Preprocessing
 1. Target variable: IS_SUCCESSFUL
 2. Features variables: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, STATUS
-3. Removed variables: EIN and NAME were removed because these are identification columns that don't add value to the model. ASK_AMT was removed becuase there's a big difference in integer value compared to the rest of the columns that can cause confusion in the model. Addidionally, the ammount of funding charities ask for is unlikely to determine if the charity applicatnts will be successful. If it did, all applicants will eventually ask for the same ammount of funding to have the best chances of getting funded.    
+3. Removed variables: EIN and NAME were removed because these are identification columns that don't add value to the model. ASK_AMT was removed becuase there's a big difference in integer value compared to the rest of the columns; this can cause confusion in the model. Addidionally, the ammount of funding charities ask for is unlikely to determine if the charity applicants will be successful. If it did, all applicants will eventually ask for the same ammount of funding to have the best chance of getting funded.    
 
 ### Compiling, Training, and Evaluating the Model
 #### Steps taken to increase model performance: 
